@@ -1,0 +1,21 @@
+.first{
+    border: 1px solid blue;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: blue;
+}
+
+.second{
+    border: 1px solid green;
+}
+
+.third{
+    border: 1px solid black;
+}
+
+#footerBox{
+    width: 100%;
+    border: 1px solid crimson;
+    background-color: green;
+}
