@@ -126,7 +126,7 @@ function Navbar() {
         <a href="/" className='logoLink'><AccountBalanceTwoTone style={{position: 'relative', top: '5px'}}></AccountBalanceTwoTone></a>
       </Typography>      
         <ul>
-          <li className={classes.navLinks}><a href="/units" className={classes.link}><Button className={classes.units}>Units</Button></a></li>
+          <li className={classes.navLinks}><a href="units" className={classes.link}><Button className={classes.units}>Units</Button></a></li>
         
         </ul>
       </Toolbar>
