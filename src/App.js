@@ -29,21 +29,21 @@ function App() {
         <Navbar></Navbar>
         <Routes>
           <Route path="/" exact element = {<HomePage/>}></Route>
-          <Route path="/inflation" exact element = {<Inflation/>}></Route>
-          <Route path="/bpone" exact element = {<BanksPartOne/>}></Route>
-          <Route path="/bptwo" exact element = {<BanksPartTwo/>}></Route>
-          <Route path="/bpthree" exact element = {<BanksPartThree/>}></Route>
-          <Route path="/units" exact element = {<Units/>}></Route>
-          <Route path="/credit" exact element = {<Credit/>}></Route>
+          <Route path="inflation/" exact element = {<Inflation/>}></Route>
+          <Route path="bpone" exact element = {<BanksPartOne/>}></Route>
+          <Route path="bptwo" exact element = {<BanksPartTwo/>}></Route>
+          <Route path="bpthree" exact element = {<BanksPartThree/>}></Route>
+          <Route path="units" exact element = {<Units/>}></Route>
+          <Route path="credit" exact element = {<Credit/>}></Route>
           <Route path="creditparttwo" exact element = {<CreditPartTwo/>}></Route>
-          <Route path="/taxespartone" exact element = {<TaxesPartOne/>}></Route>
-          <Route path="/Insurance" exact element = {<Insurance/>}></Route>
-          <Route path="/Investingpartone" exact element={<InvestingPartOne/>}></Route>
-          <Route path="/Investingparttwo" exact element={<InvestingPartTwo/>}></Route>
-          <Route path="/highereducationpartone" exact element={<HigherEducationPartOne/>}></Route>
-          <Route path="/investingpartthree" exact element={<InvestingPartThree/>}></Route>
-          <Route path="/highereducationparttwo" exact element={<HigherEducationPartTwo/>}></Route>
-          <Route path="/congrats" exact element={<Congrats/>}></Route>
+          <Route path="taxespartone" exact element = {<TaxesPartOne/>}></Route>
+          <Route path="Insurance" exact element = {<Insurance/>}></Route>
+          <Route path="Investingpartone" exact element={<InvestingPartOne/>}></Route>
+          <Route path="Investingparttwo" exact element={<InvestingPartTwo/>}></Route>
+          <Route path="highereducationpartone" exact element={<HigherEducationPartOne/>}></Route>
+          <Route path="investingpartthree" exact element={<InvestingPartThree/>}></Route>
+          <Route path="highereducationparttwo" exact element={<HigherEducationPartTwo/>}></Route>
+          <Route path="congrats" exact element={<Congrats/>}></Route>
         </Routes>
         <Footer></Footer>
       </Router>
