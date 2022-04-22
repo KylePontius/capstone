@@ -185,7 +185,7 @@ function HomePage(){
                     </div>
                     </Grid>
                 </Grid>
-                <div className={classes.start}><a href="/inflation"><Button className={classes.startJourneyButton}>Start Your Journey</Button></a></div>
+                <div className={classes.start}><a href="https://kylepontius.github.io/capstone/#/units"><Button className={classes.startJourneyButton}>Start Your Journey</Button></a></div>
             </Container>
         </Box>
         ) 
